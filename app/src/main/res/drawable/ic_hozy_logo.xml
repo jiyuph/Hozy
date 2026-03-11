@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Place this file in: res/drawable/ic_hozy_logo.xml
+    Usage in layout:    app:srcCompat="@drawable/ic_hozy_logo"
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="240dp"
+    android:height="90dp"
+    android:viewportWidth="320"
+    android:viewportHeight="120">
+
+    <!-- ══════════════════════════════════════
+         HOUSE ICON  (left square, 0–112 wide)
+         ══════════════════════════════════════ -->
+
+    <!-- Blue rounded-square background -->
+    <path
+        android:fillColor="#1A56FF"
+        android:pathData="M30,12 L82,12 Q104,12 104,34 L104,96 Q104,118 82,118 L30,118 Q8,118 8,96 L8,34 Q8,12 30,12 Z" />
+
+    <!-- Roof triangle -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.95"
+        android:pathData="M56,24 L88,56 L24,56 Z" />
+
+    <!-- Chimney -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.85"
+        android:pathData="M66,32 L78,32 Q80,32 80,34 L80,52 L64,52 L64,34 Q64,32 66,32 Z" />
+
+    <!-- House body -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.95"
+        android:pathData="M24,58 L88,58 L88,98 Q88,102 84,102 L28,102 Q24,102 24,98 Z" />
+
+    <!-- Door -->
+    <path
+        android:fillColor="#1A56FF"
+        android:pathData="M45,76 L63,76 L63,102 L45,102 Q43,102 43,100 L43,78 Q43,76 45,76 Z" />
+
+    <!-- Door knob -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.80"
+        android:pathData="M57,86 A2,2 0 1 0 57.01,86 Z" />
+
+    <!-- Left window -->
+    <path
+        android:fillColor="#1448CC"
+        android:fillAlpha="0.80"
+        android:pathData="M27,67 L41,67 Q43,67 43,69 L43,80 Q43,82 41,82 L27,82 Q25,82 25,80 L25,69 Q25,67 27,67 Z" />
+
+    <!-- Right window -->
+    <path
+        android:fillColor="#1448CC"
+        android:fillAlpha="0.80"
+        android:pathData="M67,67 L81,67 Q83,67 83,69 L83,80 Q83,82 81,82 L67,82 Q65,82 65,80 L65,69 Q65,67 67,67 Z" />
+
+    <!-- Gold badge circle -->
+    <path
+        android:fillColor="#FFC93C"
+        android:pathData="M90,15 A7,7 0 1 0 90.01,15 Z" />
+
+    <!-- Checkmark in badge -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M86.5,22 L89,24.5 L93.5,19.5" />
+
+    <!-- ══════════════════════════════════════
+         WORDMARK  "Hozy"  (right side)
+         ══════════════════════════════════════ -->
+
+    <!-- H left stem -->
+    <path
+        android:strokeColor="#1A56FF"
+        android:strokeWidth="7"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M122,32 L122,80" />
+    <!-- H crossbar -->
+    <path
+        android:strokeColor="#1A56FF"
+        android:strokeWidth="7"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M122,56 L144,56" />
+    <!-- H right stem -->
+    <path
+        android:strokeColor="#1A56FF"
+        android:strokeWidth="7"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M144,32 L144,80" />
+
+    <!-- o  (circle) -->
+    <path
+        android:strokeColor="#1A56FF"
+        android:strokeWidth="6"
+        android:fillColor="#00000000"
+        android:pathData="M166,66 A13,14 0 1 0 165.99,66 Z" />
+
+    <!-- z -->
+    <path
+        android:strokeColor="#1A56FF"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M182,52 L204,52 L182,78 L204,78" />
+
+    <!-- y -->
+    <path
+        android:strokeColor="#1A56FF"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M212,52 L223,70 L234,52 M223,70 L219,84" />
+
+    <!-- Tagline underline rule -->
+    <path
+        android:strokeColor="#1A56FF"
+        android:strokeWidth="0.8"
+        android:strokeAlpha="0.20"
+        android:fillColor="#00000000"
+        android:pathData="M122,92 L295,92" />
+
+</vector>
